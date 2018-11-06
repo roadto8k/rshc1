@@ -312,7 +312,7 @@ class KartofelController extends Controller
         else
             Yii::$app->session->setFlash('danger', 'Нет прав закрывать редактирование этого сертификата.');
         return $this->redirect(['manage']);
-
+//hello
     }
     /**
      * Finds the Kartofel model based on its primary key value.
